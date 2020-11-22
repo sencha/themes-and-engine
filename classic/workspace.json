@@ -1,0 +1,12 @@
+{
+  "frameworks": {
+    "ext": {"path":"ext","version":"7.3.0.55"}
+  },
+  "build": {
+      "dir": "${workspace.dir}/build"
+  },
+  "packages": {
+      "dir": "${workspace.dir}/packages/local,${workspace.dir}/ext/packages",
+      "extract": "${workspace.dir}/packages/remote"
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "theme-and-engine",
+    "version": "7.3.1",
+    "description": "theme-and-engine",
+    "main": "index.js",
+    "scripts": {
+      "allmodern": "npm run modern && npm run modernios && npm run modernneptune && npm run moderntriton",
+      "allclassic": "npm run classic && npm run caria && npm run cclassic && npm run ccrisp && npm run ccrisp-touch && npm run cgraphite && npm run cgray && npm run cneptune && npm run cneptune-touch && npm run ctriton",
+
+      "modern": "node ./index.js modern",
+      "modernios": "node ./index.js modern ios",
+      "modernneptune": "node ./index.js modern neptune",
+      "moderntriton": "node ./index.js modern triton",
+
+      "classic": "node ./index.js classic",
+      "caria": "node ./index.js classic aria",
+      "cclassic": "node ./index.js classic classic",
+      "ccrisp": "node ./index.js classic crisp",
+      "ccrisp-touch": "node ./index.js classic crisp-touch",
+      "cgraphite": "node ./index.js classic graphite",
+      "cgray": "node ./index.js classic gray",
+      "cneptune": "node ./index.js classic neptune",
+      "cneptune-touch": "node ./index.js classic neptune-touch",
+      "ctriton": "node ./index.js classic triton"
+    },
+    "dependencies": {
+        "mkdirp": "~1.0.4",
+        "uglify-js": "^3.10.4",
+        "fs-copy-file-sync": "~1.1.1",
+        "cross-spawn-with-kill": "^1.0.0",
+        "fs-extra": "~9.0.1",
+        "chalk": "^4.1.0",
+        "rimraf": "~3.0.2"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sencha"
+    },
+    "keywords": [
+        "webpack",
+        "webpack-plugin",
+        "EXT JS",
+        "Sencha"
+    ],
+    "author": "Sencha, Inc.",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sencha"
+    },
+    "homepage": "https://github.com/sencha"
+}
