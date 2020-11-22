@@ -1,5 +1,5 @@
-# Ext JS Bridges Theme and Engine Generator
-This repo contains documentation of the theme and engine npm package generation process.
+# Ext JS Bridges Themes and Engine Generator
+This repo contains documentation of the themes and engine npm package generation process.
 These packages are used by the following products:
 - ExtAngular
 - ExtReact
@@ -7,11 +7,11 @@ These packages are used by the following products:
 
 ## Step 1 - Acquire the latest version/branch of the SDK from https://github.com/extjs/SDK
 
-**NOTE: this readme will refer to it as {sdkroot}**
+**NOTE: this readme will refer to this folder as {sdkroot}**
 
-If you wish a watermark to appear in the code, aquire a version of the SDK with the watermark.
+**NOTE: If you wish a watermark to appear in the code, aquire a version of the SDK with the watermark.**
 
-This initial version of theme-and-engine.js requires modifications to legacy slicing source code in the SDK and must be run locally,
+This initial version of themes-and-engine.js requires modifications to legacy slicing source code in the SDK and must be run locally,
 by the developers / maintainers.
 
 ## Step 2 - edit first of 2 scss files
@@ -87,15 +87,15 @@ sencha -sdk {sdkroot} generate app reference-app ./reference-app
 
 ## Step 6 - replace the 'ext' folder for both modern and classic
 
-- in ./modern folder of theme-and-engine
+- in ./modern folder of themes-and-engine
   - replace ./modern/ext with new SDK version ('ext' folder from above)
 
-- in ./classic folder of theme-and-engine
+- in ./classic folder of themes-and-engine
   - replace ./classic/ext with new SDK version ('ext' folder from above)
 
 ## Step 7 - edit version property
 
-- in ./template folder of theme-and-engine
+- in ./template folder of themes-and-engine
   - replace version property in package.json.tpl
 
 ## Step 8 -  generate the packages
@@ -113,6 +113,8 @@ When completed, the ./packages folder will have these 2 npm packages:
 
 - run: ./packages/ext-modern-runtime/npm publish
 - run: ./packages/ext-classic-runtime/npm publish
-  or
+
+###or
+
 - run: ./packages/ext-modern-runtime/npm link
 - run: ./packages/ext-classic-runtime/npm link
