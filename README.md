@@ -134,7 +134,6 @@ there is a 'tests' folder in this repo
 - with an Angular CLI ExtAngularClassic project
 - test of a Pivot Grid
 - test of all classic themes
-- "classic": "node ./index.js classic",
   - aria
   - classic
   - crisp
