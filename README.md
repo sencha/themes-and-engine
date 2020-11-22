@@ -9,11 +9,10 @@ These packages are used by the following products:
 
 **NOTE: this readme will refer to this folder as {sdkroot}**
 
-**NOTE: If you wish a watermark to appear in the code, aquire a version of the SDK with the watermark.
+**NOTE: If you wish a watermark to appear in the code, aquire a version of the SDK with the watermark.**
 
-TODO: need direction on how to acquire this: the trial download does not seem to have the watermark
+**TODO: need direction on how to acquire this: the trial download does not seem to have the watermark**
 
-**
 
 This initial version of themes-and-engine.js requires modifications to legacy slicing source code in the SDK and must be run locally,
 by the developers / maintainers.
