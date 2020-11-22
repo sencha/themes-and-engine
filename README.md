@@ -118,3 +118,14 @@ When completed, the ./packages folder will have these 2 npm packages:
 
 - run: ./packages/ext-modern-runtime/npm link
 - run: ./packages/ext-classic-runtime/npm link
+
+
+## testing
+
+- Angular must be tested with this version of Angular CLI
+- https://www.npmjs.com/package/@angular/cli/v/9.1.12
+
+to install this version of Angular CLI, use this command:
+
+- npm i @angular/cli@9.1.12
+
