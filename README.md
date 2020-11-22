@@ -129,3 +129,9 @@ to install this version of Angular CLI, use this command:
 
 - npm i @angular/cli@9.1.12
 
+there is a 'tests' folder in this repo
+
+- with an Angular CLI ExtAngularClassic project
+- test of a Pivot Grid
+- test of all various themes
+
