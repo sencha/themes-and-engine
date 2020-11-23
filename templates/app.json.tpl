@@ -3,6 +3,9 @@
   "toolkit": "{toolkit}",
   "theme": "theme-{theme}",
   "requires": [
+<tpl if="toolkit == 'modern'">
+    "froala-editor",
+</tpl>
     "ux",
     "font-awesome",
     "calendar",

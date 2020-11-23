@@ -1,0 +1,69 @@
+{
+  "framework": "ext",
+  "toolkit": "modern",
+  "theme": "theme-triton",
+  "requires": [
+    "froala-editor",
+    "ux",
+    "font-awesome",
+    "calendar",
+    "charts",
+    "d3",
+    "exporter",
+    "pivot",
+    "pivot-d3"
+  ],
+  "classpath": [
+    "app",
+    "${toolkit.name}/src"
+  ],
+  "resources": [
+    {
+        "path": "resources",
+        "output": "shared"
+    },
+    {
+        "path": "${toolkit.name}/resources"
+    },
+    {
+        "path": "${build.id}/resources"
+    }
+  ],
+  "overrides": ["overrides"],
+  "slicer": null,
+  "packages": {
+    "dir": [
+      "./packages"
+    ]
+  },
+  "language": {
+    "js": {
+      "input": "ES5",
+      "output": "ES5"
+    }
+  },
+  "output": {
+    "base": ".",
+    "js": {
+      "path": "${build.id}/app.js"
+    }
+    // "resources": {
+    //   "path": "./ext-runtime-modern/resources",
+    //   "shared": "./ext-runtime-modern/resources"
+    // }
+  },
+  "production": {
+    "compressor": {
+      "type": "cmd",
+      "wrapLines": 100
+    },
+    "output": {
+      "appCache": {
+        "enable": false
+        }
+    },
+    "cache": {
+      "enable": false
+    }
+  }
+}
