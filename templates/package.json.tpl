@@ -1,6 +1,6 @@
 {
     "name": "@sencha/ext-{toolkit}-runtime{themeanddash}",
-    "version": "7.3.0",
+    "version": "7.3.3",
     "private": false,
     "scripts": {},
     "homepage": "https://github.com/sencha/",

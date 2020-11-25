@@ -13,7 +13,11 @@
     "d3",
     "exporter",
     "pivot",
-    "pivot-d3"
+    "pivot-d3",
+    "amf",
+    "soap",
+    "google",
+    "legacy"
   ],
   "classpath": [
     "app",
