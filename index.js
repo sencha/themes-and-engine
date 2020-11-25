@@ -49,7 +49,7 @@ async function go() {
   var outputFile = `${outputFolder}/${toolkit}.engine.enterprise.js`
 
   if (isAll) {
-    var compress = false
+    var compress = true
     if (compress == true) {
       console.log(`${chalk.green("Step 4:")} uglify ${inputFile}`)
       var uglify = require("uglify-js");
@@ -58,8 +58,8 @@ async function go() {
       console.log(`${chalk.green("Step 5:")} write uglify to ${outputFile}`)
       fs.writeFileSync(outputFile, ugly.code);
 
-      //console.log(`${chalk.green("Step 5:")} delete ${inputFile}`)
-      //rimraf.sync(`${inputFile}`);
+      console.log(`${chalk.green("Step 5:")} delete ${inputFile}`)
+      rimraf.sync(`${inputFile}`);
     }
     else {
       var inputCode = fs.readFileSync(`${inputFile}`, "utf8")
