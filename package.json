@@ -1,6 +1,6 @@
 {
     "name": "theme-and-engine",
-    "version": "7.3.3",
+    "version": "7.4.0",
     "description": "theme-and-engine",
     "main": "index.js",
     "scripts": {
