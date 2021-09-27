@@ -10,7 +10,7 @@ These packages are used by the following products:
 A commercially-stamped version of the SDK need to be used for the generation of the runtime package. This can be 
 obtained from TeamCity continuous job or from the Sencha support portal (https://support.sencha.com/) as a commercial download.
 
-Sign-in to https://support.sencha.com/ and download the latest ExtJS v7.4.0 SDK .zip file from Downloads and extract it.
+Sign-in to https://support.sencha.com/ and download the latest ExtJS v7.5.0 SDK .zip file from Downloads and extract it.
 
 **NOTE: Do not use the dev copy of ExtJS SDK from github, as it may lead to SDK version mismatch issue.**
 
